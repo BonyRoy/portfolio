@@ -22,6 +22,8 @@ import  jio from "../assets/company/jio.png"
 import  Weather from "../assets/Weather.png"
 import  blog from "../assets/blog.jpeg"
 import  fb from "../assets/fb.png"
+import  imagesearch from "../assets/imagesearch.jpeg"
+import  jr from "../assets/jr.jpeg"
 
 
 
@@ -208,6 +210,27 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
+    name: "Job Recomendation",
+    description:
+      "Hybrid filtering based model to give best possible results on comparison of users input to provide relevant jobs.",
+    tags: [
+      {
+        name: "Logistic Regression",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "SVM",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Cosine Similarity",
+        color: "green-text-gradient",
+      },
+    ],
+    image: jr,
+    source_code_link: "https://github.com/",
+  },
+  {
     name: "BLOG Website",
     description:
       "Created a blogging website based on interior designing. Users read our updated blogs, like and review it and can search for various options. After signing in user can upload their individual blogs and that will be open for others to read and look into.",
@@ -222,6 +245,27 @@ const projects = [
       }
     ],
     image: blog,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "React Image Search",
+    description:
+      "Fetching images from Google api and displaying the grid of images in not uniform manner.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Google API",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Semantic UI CSS",
+        color: "green-text-gradient",
+      },
+    ],
+    image: imagesearch,
     source_code_link: "https://github.com/",
   },
   {
